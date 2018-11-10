@@ -1,0 +1,26 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to image_tag("gracelogo.png", size: "210x80", alt: "gracelogo"), root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home", '#' %></li>
+        <li><%= link_to "About", '#' %></li>
+          <li><%= link_to "People", '#' %></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              Stuff <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><%= link_to "This is Pescado", '#' %></li>
+              <li><%= link_to "Employee handbook", '#' %></li> <%# pdfjs.minimal_path(file: "#"), target: :_blank %>
+              <li><%= link_to "My People's Pension", "#", target: :_blank %></li>
+              <li><%= link_to "Product Discounts", '#' %></li>
+              <li><%= link_to "Sodexo Voucher Scheme", "#", target: :blank %></li>
+              
+              <%# Bulk static functions only %>
+
+             
+      </ul>
+    </nav>
+  </div>
+</header>
