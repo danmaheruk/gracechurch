@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   root 'static_pages#index'
 
   get 'static_pages/index'
-
+  get 'static_pages/whatson'
+  get 'static_pages/whoweare'
+  get 'static_pages/whatwedo'
   
 end

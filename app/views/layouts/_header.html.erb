@@ -4,25 +4,11 @@
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "HOME", root_path %></li>
-        <li><%= link_to "WHO WE ARE", '#' %></li>
-          <li><%= link_to "WHAT WE DO", '#' %></li>
-          <li><%= link_to "WHAT'S ON", '#' %></li>
+        <li><%= link_to "WHO WE ARE", '/static_pages/whoweare' %></li>
+          <li><%= link_to "WHAT WE DO", '/static_pages/whatwedo' %></li>
+          <li><%= link_to "WHAT'S ON", '/static_pages/whatson' %></li>
           <li><%= link_to "KIDS", '#' %></li>
-          <li><%= link_to "CONTACT", '#' %></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-               <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu">
-              <li><%= link_to "This is Pescado", '#' %></li>
-              <li><%= link_to "Employee handbook", '#' %></li> <%# pdfjs.minimal_path(file: "#"), target: :_blank %>
-              <li><%= link_to "My People's Pension", "#", target: :_blank %></li>
-              <li><%= link_to "Product Discounts", '#' %></li>
-              <li><%= link_to "Sodexo Voucher Scheme", "#", target: :blank %></li>
-              
-              <%# Bulk static functions only %>
-
-             
+          <li><%= link_to "CONTACT", '#' %></li>   
       </ul>
     </nav>
   </div>
