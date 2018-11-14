@@ -6,5 +6,8 @@ Rails.application.routes.draw do
   get 'static_pages/whatson'
   get 'static_pages/whoweare'
   get 'static_pages/whatwedo'
+  get 'static_pages/kids'
+  get 'static_pages/contact'
+
   
 end
